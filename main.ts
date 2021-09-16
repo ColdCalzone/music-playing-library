@@ -14,6 +14,9 @@ namespace song {
         while(song.indexOf("RH:") != -1) {
             song = song.replace("RH:", "")
         }
+        while(song.indexOf("LH:") != -1) {
+            song = song.replace("LH:", "")
+        }
         //  ???? wtheck am i working with here???
         while (song.indexOf("|") != -1) {
             song = song.replace("|", "")
