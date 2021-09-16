@@ -11,6 +11,9 @@ namespace song {
     
         let melodies : string[] = []
         let letters : string[] = []
+        while(song.indexOf("RH:") != -1) {
+            song = song.replace("RH:", "")
+        }
         //  ???? wtheck am i working with here???
         while (song.indexOf("|") != -1) {
             song = song.replace("|", "")
