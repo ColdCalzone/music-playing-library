@@ -1,5 +1,5 @@
-// tests go here; this will not be compiled when this package is used as an extension.
-song.song_to_melody(
+0// tests go here; this will not be compiled when this package is used as an extension.
+music.songToMelody(
     `RH:5|--d---------------d-------|
 RH:4|dd--a--G-g-f-dfgcc--a--G-g|
 
